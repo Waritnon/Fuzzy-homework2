@@ -34,8 +34,8 @@ washing_machine_ctrl = ctrl.ControlSystem([rule1, rule2, rule3, rule4, rule5, ru
 washing_machine = ctrl.ControlSystemSimulation(washing_machine_ctrl)
 
 ##Input(can change)
-washing_machine.input['laundry_weight'] = 2
-washing_machine.input['detergent_concentration'] = 27
+washing_machine.input['laundry_weight'] = 3
+washing_machine.input['detergent_concentration'] = 50
 
 ##computing
 washing_machine.compute()
